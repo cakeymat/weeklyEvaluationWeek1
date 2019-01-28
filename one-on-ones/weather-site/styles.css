@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.sunny {
+  background-image: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/sunny.jpg");
+}
+.rainy {
+  background-image: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/rainy.jpg");
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.date {
+  font-size: 24px;
+  color: white;
+
+}
+h2 {
+  font-weight: lighter;
+}
+
+label[for="search"] {
+  color: white;
+
+}
+
+.description {
+  color: white;
+}
+
+.temperture {
+  width: 200px;
+  text-align: center;
+  color: white;
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .temperture {
+    color:black;
+  }
+}
